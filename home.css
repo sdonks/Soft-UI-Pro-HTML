@@ -561,7 +561,7 @@
 .home-container04 {
   flex: 0 0 auto;
   width: 100%;
-  display: flex;
+  display: none;
   flex-wrap: wrap;
   margin-top: var(--dl-space-space-halfunit);
   align-items: flex-start;
