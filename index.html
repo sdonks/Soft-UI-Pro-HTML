@@ -48,73 +48,108 @@
       <link href="./home.css" rel="stylesheet" />
 
       <div class="home-container">
-        <div data-role="Header" class="header-header">
-          <nav class="header-nav">
-            <div class="header-container">
-              <a href="index.html" class="header-navlink Large">
-                Moview Productions
-              </a>
-              <div class="header-menu">
-                <a href="index.html" class="header-navlink1 Large">Home</a>
-                <a href="services.html" class="header-navlink2 Large">
-                  Services
-                </a>
-                <a href="case-studies.html" class="header-navlink3 Large">
-                  Case studies
-                </a>
-              </div>
-              <div class="header-container1">
-                <div class="header-container2">
-                  <div class="primary-pink-button-container">
-                    <button
-                      class="primary-pink-button-button button ButtonSmall"
-                    >
-                      <span>Contact us</span>
-                    </button>
-                  </div>
+        <div data-role="Header" class="header-header header-root-class-name">
+          <header data-thq="thq-navbar" class="header-navbar-interactive">
+            <span class="header-logo Large">
+              <span>Moview Productions</span>
+            </span>
+            <div
+              data-thq="thq-navbar-nav"
+              data-role="Nav"
+              class="header-desktop-menu"
+            >
+              <nav
+                data-thq="thq-navbar-nav-links"
+                data-role="Nav"
+                class="header-nav"
+              >
+                <div class="header-menu">
+                  <a href="index.html" class="header-navlink Large">Home</a>
+                  <a href="services.html" class="header-navlink1 Large">
+                    Services
+                  </a>
+                  <a href="case-studies.html" class="header-navlink2 Large">
+                    Case studies
+                  </a>
                 </div>
-                <div data-role="BurgerMenu" class="header-burger-menu">
-                  <svg viewBox="0 0 1024 1024" class="header-icon">
-                    <path
-                      d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"
-                    ></path>
-                  </svg>
-                </div>
+              </nav>
+            </div>
+            <div data-thq="thq-navbar-btn-group" class="header-btn-group">
+              <div class="primary-pink-button-container">
+                <button class="primary-pink-button-button button ButtonSmall">
+                  <span>Contact us</span>
+                </button>
               </div>
             </div>
-          </nav>
-          <div data-role="MobileMenu" class="header-mobile-menu">
-            <div class="header-top">
-              <a href="index.html" class="header-navlink4 Large">
-                Soft UI Design System
-              </a>
-              <div data-role="CloseMobileMenu" class="header-close-menu">
-                <svg viewBox="0 0 1024 1024" class="header-icon2">
+            <div data-thq="thq-burger-menu" class="header-burger-menu">
+              <svg viewBox="0 0 1024 1024" class="header-icon">
+                <path
+                  d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                ></path>
+              </svg>
+            </div>
+            <div data-thq="thq-mobile-menu" class="header-mobile-menu">
+              <div
+                data-thq="thq-mobile-menu-nav"
+                data-role="Nav"
+                class="header-nav1"
+              >
+                <div class="header-container">
+                  <span class="header-logo1 Large">
+                    <span>Moview Productions</span>
+                  </span>
+                  <div data-thq="thq-close-menu" class="header-menu-close">
+                    <svg viewBox="0 0 1024 1024" class="header-icon02">
+                      <path
+                        d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <nav
+                  data-thq="thq-mobile-menu-nav-links"
+                  data-role="Nav"
+                  class="header-nav2"
+                >
+                  <div class="header-menu1">
+                    <a href="index.html" class="header-navlink3 Large">Home</a>
+                    <a href="services.html" class="header-navlink4 Large">
+                      Services
+                    </a>
+                    <a href="case-studies.html" class="header-navlink5 Large">
+                      Case studies
+                    </a>
+                  </div>
+                </nav>
+                <div class="primary-pink-button-container">
+                  <button class="primary-pink-button-button button ButtonSmall">
+                    <span>Contact us</span>
+                  </button>
+                </div>
+              </div>
+              <div class="header-icon-group">
+                <svg viewBox="0 0 950.8571428571428 1024" class="header-icon04">
                   <path
-                    d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                    d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                  ></path></svg
+                ><svg
+                  viewBox="0 0 877.7142857142857 1024"
+                  class="header-icon06"
+                >
+                  <path
+                    d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                  ></path></svg
+                ><svg
+                  viewBox="0 0 602.2582857142856 1024"
+                  class="header-icon08"
+                >
+                  <path
+                    d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"
                   ></path>
                 </svg>
               </div>
             </div>
-            <div class="header-mid">
-              <div class="header-menu1">
-                <a href="index.html" class="header-navlink5 Large">Home</a>
-                <a href="services.html" class="header-navlink6 Large">
-                  Profile
-                </a>
-                <a href="case-studies.html" class="header-navlink7 Large">
-                  Coming Soon
-                </a>
-              </div>
-            </div>
-            <div class="header-bot">
-              <div class="primary-pink-button-container">
-                <button class="primary-pink-button-button button ButtonSmall">
-                  <span>buy now</span>
-                </button>
-              </div>
-            </div>
-          </div>
+          </header>
         </div>
         <div class="home-hero">
           <div class="home-container01">
@@ -231,7 +266,7 @@
         </section>
         <img
           alt="image"
-          src="https://i.imgur.com/qUcY6k6.jpg"
+          src="https://i.imgur.com/Go7dtob.jpg"
           class="home-image04"
         />
         <section class="home-container05">
@@ -249,20 +284,24 @@
                 src="https://i.imgur.com/hjx4j7N.jpg"
                 class="home-image05"
               />
-              <span class="home-text10">
-                <span class="home-text11">
-                  "Over the span of the satellite record, Arctic sea ice has
-                  been declining significantly, while sea ice in the
-                  Antarctichas increased very slightly"
-                </span>
-                <br class="Small" />
-                <span class="home-text13">-NOAA</span>
+              <h1 class="home-text10">
+                <span class="HeadingOne">The Studio</span>
+                <br />
+              </h1>
+              <span class="home-text13">
+                2,200 square ft. total | 40 ft. across white screen | 40 ft.
+                across cyclorama green screen
               </span>
               <div class="home-container09">
                 <img
                   alt="image"
-                  src="https://i.imgur.com/5niY08F.jpg"
+                  src="https://i.imgur.com/LjUb4EQ.jpg"
                   class="home-image06"
+                />
+                <img
+                  alt="image"
+                  src="https://i.imgur.com/5niY08F.jpg"
+                  class="home-image07"
                 />
               </div>
             </div>
@@ -270,15 +309,19 @@
               <img
                 alt="image"
                 src="https://i.imgur.com/fNaO2U2.jpg"
-                class="home-image07"
+                class="home-image08"
               />
               <div class="home-container11">
                 <h3 class="home-text14">
-                  We guarantee you'll love your video or your money back.
+                  <span>
+                    We guarantee you'll love your video or your money back
+                  </span>
+                  <span class="home-text16">*</span>
+                  <span>.</span>
                 </h3>
                 <p>
                   <br />
-                  <span class="home-text17">
+                  <span class="home-text20">
                     The Arctic Ocean freezes every winter and much of the
                     sea-ice then thaws every summer, and that process will
                     continue whatever happens with climate change. Even if the
@@ -290,7 +333,7 @@
                   </span>
                   <br />
                   <br />
-                  <span class="home-text20">
+                  <span class="home-text23">
                     For a start, it does not automatically follow that a record
                     amount of ice will melt this summer. More important for
                     determining the size of the annual thaw is the state of the
@@ -301,7 +344,7 @@
                   </span>
                   <br />
                   <br />
-                  <span class="home-text23">
+                  <span class="home-text26">
                     The Arctic Ocean freezes every winter and much of the
                     sea-ice then thaws every summer, and that process will
                     continue whatever happens with climate change. Even if the
@@ -321,14 +364,13 @@
           <div class="home-container12">
             <div class="home-container13">
               <div class="home-container14">
-                <h2 class="home-text25 HeadingOne">Work with us</h2>
-                <p class="home-text26 Lead">
-                  <span class="home-text27">
-                    Whatever your qualification is - we got you!
-                  </span>
+                <h2 class="home-text28 HeadingOne">Work with us</h2>
+                <p class="home-text29">
+                  We'd be glad to fuel your marketing and education with videos
+                  of any genre, mood and style.
                 </p>
-                <p class="home-text28 Body">
-                  <span class="home-text29">
+                <p class="home-text30 Body">
+                  <span class="home-text31">
                     "Take up one idea. Make that one idea your life - think of
                     it, dream of it, live on that idea. Let the brain, muscles,
                     nerves, every part of your body, be full of that idea, and
@@ -337,27 +379,42 @@
                     my world."
                   </span>
                 </p>
-                <p class="home-text30">Mark Jojansen</p>
-                <p class="home-text31 Small">Project manager, Atlassian</p>
+                <p class="home-text32">Mark Jojansen</p>
+                <p class="home-text33 Small">Project manager, Atlassian</p>
                 <div class="home-container15">
                   <img
                     alt="image"
                     src="public/playground_assets/team-4-200h.jpg"
-                    class="home-image08"
+                    class="home-image09"
                   />
                   <div class="home-container16"></div>
                   <img
                     alt="image"
                     src="public/playground_assets/team-3-200h.jpg"
-                    class="home-image09"
+                    class="home-image10"
                   />
                   <div class="home-container17"></div>
                   <img
                     alt="image"
                     src="public/playground_assets/team-2-200h.jpg"
-                    class="home-image10"
+                    class="home-image11"
                   />
                 </div>
+                <img
+                  alt="image"
+                  src="public/playground_assets/waves-white.svg"
+                  class="home-top-wave-image"
+                />
+                <img
+                  alt="image"
+                  src="public/playground_assets/waves-white.svg"
+                  class="home-image12"
+                />
+                <img
+                  alt="image"
+                  src="public/playground_assets/waves-white.svg"
+                  class="home-bottom-wave-image"
+                />
               </div>
             </div>
             <div class="home-logos">
@@ -367,21 +424,21 @@
                     <img
                       alt="image"
                       src="public/playground_assets/logo-asana.svg"
-                      class="home-image11"
+                      class="home-image13"
                     />
                   </div>
                   <div class="home-container21">
                     <img
                       alt="image"
                       src="public/playground_assets/logo-slack.svg"
-                      class="home-image12"
+                      class="home-image14"
                     />
                   </div>
                   <div class="home-container22">
                     <img
                       alt="image"
                       src="public/playground_assets/logo-google-drive.svg"
-                      class="home-image13"
+                      class="home-image15"
                     />
                   </div>
                 </div>
@@ -390,21 +447,21 @@
                     <img
                       alt="image"
                       src="public/playground_assets/logo-shopify.svg"
-                      class="home-image14"
+                      class="home-image16"
                     />
                   </div>
                   <div class="home-container25">
                     <img
                       alt="image"
                       src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/logos/small-logos/logo-apple.svg"
-                      class="home-image15"
+                      class="home-image17"
                     />
                   </div>
                   <div class="home-container26">
                     <img
                       alt="image"
                       src="public/playground_assets/logo-invision.svg"
-                      class="home-image16"
+                      class="home-image18"
                     />
                   </div>
                 </div>
@@ -413,35 +470,20 @@
                     <img
                       alt="image"
                       src="public/playground_assets/logo-attlasian.svg"
-                      class="home-image17"
+                      class="home-image19"
                     />
                   </div>
                   <div class="home-container29">
                     <img
                       alt="image"
                       src="public/playground_assets/logo-weave.svg"
-                      class="home-image18"
+                      class="home-image20"
                     />
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <img
-            alt="image"
-            src="public/playground_assets/waves-white.svg"
-            class="home-bottom-wave-image"
-          />
-          <img
-            alt="image"
-            src="public/playground_assets/waves-white.svg"
-            class="home-image19"
-          />
-          <img
-            src="public/playground_assets/waves-white.svg"
-            alt="image"
-            class="home-top-wave-image"
-          />
         </section>
         <section class="home-contaier">
           <div class="home-container30">
@@ -452,12 +494,12 @@
                 ></path>
               </svg>
             </div>
-            <h2 class="home-text32 HeadingTwo">Beware The Components</h2>
-            <h3 class="home-text33">
-              <span class="home-text34">How To Handle Them</span>
+            <h2 class="home-text34 HeadingTwo">Beware The Components</h2>
+            <h3 class="home-text35">
+              <span class="home-text36">How To Handle Them</span>
               <br class="HeadingTwo" />
             </h3>
-            <span class="home-text36">
+            <span class="home-text38">
               We’re constantly trying to express ourselves and actualize our
               dreams. Don't stop.
             </span>
@@ -471,8 +513,8 @@
                     d="M438.857 508.571l312 312c-79.429 80.571-190.286 130.286-312 130.286-242.286 0-438.857-196.571-438.857-438.857s196.571-438.857 438.857-438.857v435.429zM545.714 512h441.714c0 121.714-49.714 232.571-130.286 312zM950.857 438.857h-438.857v-438.857c242.286 0 438.857 196.571 438.857 438.857z"
                   ></path>
                 </svg>
-                <h1 class="home-text37 HeadingOne">Search and Discover!</h1>
-                <span class="home-text38">
+                <h1 class="home-text39 HeadingOne">Search and Discover!</h1>
+                <span class="home-text40">
                   <span>Website visitors</span>
                   <span></span>
                 </span>
@@ -567,8 +609,8 @@
                     d="M1088 901.166c0 45.5 26.028 84.908 64 104.184v15.938c-10.626 1.454-21.472 2.224-32.5 2.224-68.008 0-129.348-28.528-172.722-74.264-26.222 6.982-54.002 10.752-82.778 10.752-159.058 0-288-114.616-288-256s128.942-256 288-256c159.058 0 288 114.616 288 256 0 55.348-19.764 106.592-53.356 148.466-6.824 14.824-10.644 31.312-10.644 48.7zM512 0c278.458 0 504.992 180.614 511.836 405.52-49.182-21.92-103.586-33.52-159.836-33.52-95.56 0-185.816 33.446-254.138 94.178-70.846 62.972-109.862 147.434-109.862 237.822 0 44.672 9.544 87.888 27.736 127.788-5.228 0.126-10.468 0.212-15.736 0.212-27.156 0-53.81-1.734-79.824-5.044-109.978 109.978-241.25 129.7-368.176 132.596v-26.916c68.536-33.578 128-94.74 128-164.636 0-9.754-0.758-19.33-2.164-28.696-115.796-76.264-189.836-192.754-189.836-323.304 0-229.75 229.23-416 512-416z"
                   ></path>
                 </svg>
-                <h1 class="home-text41 HeadingOne">Talk and Meet!</h1>
-                <span class="home-text42">
+                <h1 class="home-text43 HeadingOne">Talk and Meet!</h1>
+                <span class="home-text44">
                   <span>Website visitors</span>
                   <span></span>
                 </span>
@@ -586,8 +628,10 @@
         <footer class="footer-footer">
           <div class="footer-container">
             <div class="footer-container1">
-              <span class="footer-text">SOFT</span>
-              <span>Copyright © 2021 Soft by Creative Tim.</span>
+              <span class="footer-text">MOVIEW</span>
+              <span class="footer-text01">
+                Copyright © 2023 Moview Productions | Doncean Stefan
+              </span>
             </div>
             <div class="footer-container2">
               <div class="footer-container3">

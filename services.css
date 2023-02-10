@@ -260,8 +260,12 @@
   flex-direction: column;
 }
 .footer-text {
+  color: #ffffff;
   font-weight: 700;
   margin-bottom: var(--dl-space-space-halfunit);
+}
+.footer-text01 {
+  color: rgb(255, 255, 255);
 }
 .footer-container2 {
   display: flex;
@@ -274,6 +278,7 @@
   flex-direction: column;
 }
 .footer-text02 {
+  color: #ffffff;
   font-weight: 700;
   margin-bottom: var(--dl-space-space-halfunit);
 }
@@ -309,6 +314,7 @@
   flex-direction: column;
 }
 .footer-text06 {
+  color: #ffffff;
   font-weight: 700;
   margin-bottom: var(--dl-space-space-halfunit);
 }
