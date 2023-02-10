@@ -653,11 +653,10 @@
   display: flex;
   max-width: 1320px;
   align-items: center;
-  padding-top: 213px;
+  padding-top: 189px;
   padding-left: var(--dl-space-space-tripleunit);
   padding-right: var(--dl-space-space-tripleunit);
   flex-direction: column;
-  padding-bottom: var(--dl-space-space-sixunits);
 }
 .home-container06 {
   display: flex;
@@ -1279,7 +1278,7 @@
   padding-bottom: var(--dl-space-space-doubleunit);
   background-size: cover;
   justify-content: center;
-  background-image: url("https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/coffee-shop.jpg");
+  background-image: url('https://i.imgur.com/S0nMdGY.jpg');
   background-position: center;
 }
 .home-container39:hover {
@@ -1409,7 +1408,9 @@
     display: none;
   }
   .home-container05 {
+    height: 1839px;
     max-width: 720px;
+    padding-bottom: 132px;
   }
   .home-container07 {
     align-items: center;
@@ -1491,8 +1492,12 @@
     width: 100%;
   }
   .home-container05 {
-    height: 2208px;
+    width: 100%;
+    height: 2099px;
+    margin-top: 0px;
     padding-top: 370px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
   }
   .home-text08 {
     margin-top: var(--dl-space-space-unit);
