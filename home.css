@@ -209,7 +209,11 @@
   height: 16px;
 }
 .header-root-class-name {
-  margin-top: var(--dl-space-space-doubleunit);
+  top: 32px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  position: absolute;
 }
 @media(max-width: 767px) {
   .header-desktop-menu {
