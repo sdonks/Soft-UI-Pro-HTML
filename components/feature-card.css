@@ -23,6 +23,18 @@
   text-align: center;
   margin-bottom: var(--dl-space-space-unit);
 }
+.feature-card-root-class-name {
+  margin: mixed;
+  align-self: center;
+}
+.feature-card-root-class-name1 {
+  margin: mixed;
+  align-self: center;
+}
+.feature-card-root-class-name2 {
+  margin: mixed;
+  align-self: center;
+}
 @media(max-width: 767px) {
   .feature-card-container {
     width: 50%;
