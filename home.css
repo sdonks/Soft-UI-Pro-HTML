@@ -657,7 +657,7 @@
   text-decoration: none;
 }
 .home-text08 {
-  color: #f1ebeb;
+  color: rgb(241, 235, 235);
   max-width: 600px;
   text-align: center;
   font-weight: 400;
@@ -764,7 +764,7 @@
   flex-direction: column;
 }
 .home-text13 {
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   font-size: 1.875rem;
   font-family: Open Sans;
   font-weight: 700;
