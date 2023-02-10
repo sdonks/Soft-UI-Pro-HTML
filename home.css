@@ -1190,7 +1190,7 @@
   padding-bottom: var(--dl-space-space-doubleunit);
   background-size: cover;
   justify-content: center;
-  background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/team-working.jpg');
+  background-image: url('https://i.imgur.com/fNaO2U2.jpg');
   background-position: center;
 }
 .home-container33:hover {
@@ -1202,6 +1202,7 @@
   right: auto;
   width: 100%;
   bottom: auto;
+  filter: blur(4px);
   height: 100%;
   position: absolute;
   background: rgba(0,0,0,.4);
