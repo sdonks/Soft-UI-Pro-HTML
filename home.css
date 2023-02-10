@@ -1062,8 +1062,6 @@
   bottom: auto;
   position: absolute;
   object-fit: cover;
-  border-color: #2a3137;
-  border-width: 1px;
 }
 .home-contaier {
   flex: 0 0 auto;
